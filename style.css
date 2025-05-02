@@ -1,0 +1,92 @@
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  border-radius: 0px;
+  background-color: #f8e1f4;
+  border-bottom: 2px solid #e0aaff;
+}
+
+.navbar-brand {
+  font-size: 35px;
+  color: #b76e79;
+  padding-left: 25px;
+  font-family: "Lucida Handwriting", cursive;
+}
+
+.navbar-brand:hover {
+  color: #ffb6b9;
+}
+
+.navbar-toggle {
+  border: 2px solid #b76e79;
+  margin-right: 25px;
+}
+
+.icon-bar {
+  background-color: #b76e79;
+}
+
+.navbar-nav {
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.main-title {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #e29578;
+  font-size: 50px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+}
+
+li {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.menu-item {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #fff0f5;
+  border-bottom: 1px solid #f4a261;
+  color: #6d6875;
+  display: block;
+  transition: 0.3s ease;
+}
+
+.menu-item:hover {
+  background-color: #ffc8dd;
+  color: white;
+}
+
+.row {
+  margin: 20px;
+}
+
+.content-box {
+  margin: 20px;
+  width: auto;
+  height: auto;
+  color: #6d6875;
+  background-color: #ffe6f0;
+  font-family: "Georgia", serif;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #e0aaff;
+  box-shadow: 0 3px 10px rgba(255,182,193,0.3);
+}
+
+.item-name {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #b76e79;
+}
